@@ -1,0 +1,34 @@
+.variant-slider-container {
+    position: relative;
+
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .slick-prev {
+        left: 10px;
+        top: 0;
+    }
+
+    .slick-next {
+        left: 10px;
+        top: 434px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        display: none;
+    }
+
+}
